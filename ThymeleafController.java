@@ -13,7 +13,7 @@ public class ThymeleafController {
 	
     @RequestMapping("/hi")
 	public String hello(Locale locale, Model model) {
-		model.addAttribute("greeting", "Hello!");
+		model.addAttribute("greeting", "Hello!!!!");
 
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);        
